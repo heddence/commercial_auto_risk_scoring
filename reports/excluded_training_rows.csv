@@ -1,0 +1,11 @@
+policy_id,insured_id,snapshot_date,policy_effective_date,policy_expiration_date,coverage_type,vehicle_count,vehicle_avg_age,driver_count,driver_avg_age,years_in_business,prior_year_mileage_000,business_type,state,prior_apd_claim_count,prior_al_claim_count,prior_loss_amount,deductible,coverage_limit_000,annual_premium,payment_frequency,risk_score_external,has_safety_program,num_heavy_vehicles,late_payment_count,claim_count,total_loss_amount,first_claim_reported_date,claim_paid_amount_current_period,claim_status_current_period,days_to_first_claim_report
+POL-001535,INS-00309,2022-06-13,2022-01-09,2021-12-10,APD,8,8.2,4,33.0,10.8,231.8,retail,CO,0,0,0.0,500,500,5631.58,Monthly,56.66,1,2,0.0,0,0.0,,0.0,No Claim,
+POL-000182,INS-00882,2020-06-15,2020-02-14,2020-01-15,APD,10,4.2,5,55.2,2.6,274.1,retail,IL,1,2,60471.99,250,300,7067.1,,47.87,0,1,0.0,0,0.0,,0.0,No Claim,
+POL-000294,INS-03322,2020-12-29,2020-11-04,2020-10-05,APD,5,0.0,12,42.5,9.2,88.7,service,TX,1,0,8323.88,5000,300,10250.84,Annual,22.34,0,1,0.0,0,0.0,,0.0,No Claim,
+POL-007964,INS-03704,2021-07-12,2021-04-09,2021-03-10,AL,6,5.6,7,48.9,7.6,359.7,trucking,NY,0,1,9146.59,5000,300,7781.98,Annual,57.89,1,2,1.0,0,0.0,,0.0,No Claim,
+POL-011651,INS-03642,2022-03-28,2021-11-10,2021-10-11,AL,12,5.6,5,37.2,3.1,404.3,service,CA,1,0,25581.73,5000,1000,7908.96,Monthly,4.6,0,3,0.0,0,0.0,,0.0,No Claim,
+POL-007016,INS-00084,2022-06-05,2021-12-24,2021-11-24,APD,7,7.6,4,36.6,15.1,212.6,trucking,TX,1,3,40086.04,500,500,11818.78,Monthly,68.3,0,1,3.0,2,2332.81,2022-07-25,2203.56,Open,50.0
+POL-003622,INS-02816,2020-08-31,2020-03-17,2020-02-16,APD,7,3.7,6,38.4,3.5,269.2,other,IL,0,1,,500,500,6922.2,Monthly,46.2,0,0,2.0,0,0.0,,0.0,No Claim,
+POL-013043,INS-03281,2021-10-21,2021-06-08,2021-05-09,AL,9,6.9,6,44.5,1.1,126.0,trucking,NC,0,0,0.0,2500,500,8045.38,,49.59,1,3,1.0,0,0.0,,0.0,No Claim,
+POL-013777,INS-02741,2021-08-26,2021-08-04,2021-07-05,AL,7,5.2,4,48.7,19.7,171.3,trucking,OH,1,0,,2500,500,6072.03,Annual,34.81,0,4,1.0,0,0.0,,0.0,No Claim,
+POL-002965,INS-01568,2022-03-14,2022-02-06,2022-01-07,APD,9,0.5,7,42.3,27.8,204.3,construction,FL,2,0,5007.49,1000,100,11769.27,Quarterly,99.64,0,1,3.0,0,0.0,,0.0,No Claim,

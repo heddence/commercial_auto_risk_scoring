@@ -1,0 +1,50 @@
+{
+  "input_rows": 3000,
+  "duplicate_copies_removed": 0,
+  "invalid_periods_excluded": 0,
+  "retained_rows": 3000,
+  "invalid_inputs_marked_missing": {},
+  "inconsistent_fleet_pairs_marked_missing": 0,
+  "missing_predictors": {
+    "coverage_type": 0,
+    "business_type": 0,
+    "state": 0,
+    "payment_frequency": 90,
+    "vehicle_count": 0,
+    "vehicle_avg_age": 0,
+    "driver_count": 0,
+    "driver_avg_age": 120,
+    "years_in_business": 0,
+    "prior_year_mileage_000": 180,
+    "prior_apd_claim_count": 0,
+    "prior_al_claim_count": 0,
+    "prior_loss_amount": 240,
+    "deductible": 0,
+    "coverage_limit_000": 0,
+    "annual_premium": 0,
+    "risk_score_external": 150,
+    "num_heavy_vehicles": 0
+  },
+  "unseen_categories": {
+    "coverage_type": 0,
+    "business_type": 60,
+    "state": 0,
+    "payment_frequency": 0
+  },
+  "numeric_mean_shift_in_training_std": {
+    "vehicle_count": -0.006026701878783719,
+    "vehicle_avg_age": -0.028596910833884676,
+    "driver_count": 0.00013850945926866619,
+    "driver_avg_age": -0.3600083716247411,
+    "years_in_business": 0.023375115690128158,
+    "prior_year_mileage_000": 0.2042140718580522,
+    "prior_apd_claim_count": 0.14615820541732216,
+    "prior_al_claim_count": 0.20561345047868013,
+    "prior_loss_amount": 0.3247774235990886,
+    "deductible": 0.011180630923412408,
+    "coverage_limit_000": 0.013285408249453103,
+    "annual_premium": -0.0012205148202550722,
+    "risk_score_external": 0.007476701815558649,
+    "num_heavy_vehicles": 0.00048009714407346753
+  }
+}

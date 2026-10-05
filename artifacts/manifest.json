@@ -1,0 +1,183 @@
+{
+  "selected_config": {
+    "name": "logistic_derived_C0.05",
+    "family": "logistic",
+    "engineered": true,
+    "C": 0.05
+  },
+  "training_snapshot_start": "2020-01-01",
+  "training_snapshot_end": "2022-12-30",
+  "fit_rows": 14990,
+  "fit_claims": 1853,
+  "policy_durations_days": [
+    365
+  ],
+  "training_reference": {
+    "categories": {
+      "coverage_type": [
+        "AL",
+        "APD"
+      ],
+      "business_type": [
+        "agriculture",
+        "construction",
+        "other",
+        "retail",
+        "service",
+        "trucking"
+      ],
+      "state": [
+        "AZ",
+        "CA",
+        "CO",
+        "FL",
+        "GA",
+        "IL",
+        "NC",
+        "NY",
+        "OH",
+        "PA",
+        "TX",
+        "WA"
+      ],
+      "payment_frequency": [
+        "Annual",
+        "Monthly",
+        "Quarterly"
+      ]
+    },
+    "numeric": {
+      "vehicle_count": {
+        "mean": 8.014479215319945,
+        "std": 2.8449859195741976,
+        "missing_fraction": 0.00020013342228152102
+      },
+      "vehicle_avg_age": {
+        "mean": 5.023282188125417,
+        "std": 2.442531474739548,
+        "missing_fraction": 0.0
+      },
+      "driver_count": {
+        "mean": 5.99599733155437,
+        "std": 2.4258399443448395,
+        "missing_fraction": 0.0
+      },
+      "driver_avg_age": {
+        "mean": 42.10435719249478,
+        "std": 8.01317082812363,
+        "missing_fraction": 0.0400266844563042
+      },
+      "years_in_business": {
+        "mean": 7.988232154769846,
+        "std": 7.619264046624781,
+        "missing_fraction": 0.0
+      },
+      "prior_year_mileage_000": {
+        "mean": 203.8805180979418,
+        "std": 135.31159383891753,
+        "missing_fraction": 0.06004002668445631
+      },
+      "prior_apd_claim_count": {
+        "mean": 0.5869246164109406,
+        "std": 0.8032988403706678,
+        "missing_fraction": 0.0
+      },
+      "prior_al_claim_count": {
+        "mean": 0.30026684456304203,
+        "std": 0.5612464643483542,
+        "missing_fraction": 0.0
+      },
+      "prior_loss_amount": {
+        "mean": 9998.009017546405,
+        "std": 18360.59468718389,
+        "missing_fraction": 0.0799199466310874
+      },
+      "deductible": {
+        "mean": 1844.7631754503002,
+        "std": 1757.8159364165972,
+        "missing_fraction": 0.0
+      },
+      "coverage_limit_000": {
+        "mean": 427.6450967311541,
+        "std": 280.1246198562056,
+        "missing_fraction": 0.0
+      },
+      "annual_premium": {
+        "mean": 11251.42745612279,
+        "std": 6197.586458809357,
+        "missing_fraction": 0.000333555703802535
+      },
+      "risk_score_external": {
+        "mean": 49.96961306179776,
+        "std": 29.05412691641101,
+        "missing_fraction": 0.05003335557038025
+      },
+      "num_heavy_vehicles": {
+        "mean": 1.6077266964702743,
+        "std": 1.263571072120835,
+        "missing_fraction": 0.00020013342228152102
+      }
+    }
+  },
+  "training_quality": {
+    "input_rows": 15075,
+    "duplicate_copies_removed": 75,
+    "invalid_periods_excluded": 10,
+    "retained_rows": 14990,
+    "invalid_inputs_marked_missing": {
+      "annual_premium": 5
+    },
+    "inconsistent_fleet_pairs_marked_missing": 3,
+    "missing_predictors": {
+      "coverage_type": 0,
+      "business_type": 0,
+      "state": 0,
+      "payment_frequency": 448,
+      "vehicle_count": 3,
+      "vehicle_avg_age": 0,
+      "driver_count": 0,
+      "driver_avg_age": 600,
+      "years_in_business": 0,
+      "prior_year_mileage_000": 900,
+      "prior_apd_claim_count": 0,
+      "prior_al_claim_count": 0,
+      "prior_loss_amount": 1198,
+      "deductible": 0,
+      "coverage_limit_000": 0,
+      "annual_premium": 5,
+      "risk_score_external": 750,
+      "num_heavy_vehicles": 3
+    }
+  },
+  "schema_version": 2,
+  "target": "claim_count > 0",
+  "score_definition": "Probability of at least one claim during the policy period",
+  "input_features": [
+    "coverage_type",
+    "business_type",
+    "state",
+    "payment_frequency",
+    "vehicle_count",
+    "vehicle_avg_age",
+    "driver_count",
+    "driver_avg_age",
+    "years_in_business",
+    "prior_year_mileage_000",
+    "prior_apd_claim_count",
+    "prior_al_claim_count",
+    "prior_loss_amount",
+    "deductible",
+    "coverage_limit_000",
+    "annual_premium",
+    "risk_score_external",
+    "num_heavy_vehicles"
+  ],
+  "random_seed": 42,
+  "versions": {
+    "python": "3.12.3",
+    "pandas": "2.3.3",
+    "numpy": "2.3.4",
+    "sklearn": "1.7.2",
+    "joblib": "1.5.2"
+  }
+}
