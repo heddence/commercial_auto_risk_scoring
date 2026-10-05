@@ -1,0 +1,84 @@
+{
+  "selected_config": {
+    "name": "logistic_derived_C0.05",
+    "family": "logistic",
+    "engineered": true,
+    "C": 0.05
+  },
+  "protocol": "Retrospective capture-date cohorts, not an as-of deployment backtest",
+  "evaluation_fit_rows": 10023,
+  "evaluation_rows": 4967,
+  "evaluation_claims": 627,
+  "final_fit_rows": 14990,
+  "metrics": {
+    "overall_rate": {
+      "log_loss": 0.3792335270064048,
+      "brier_score": 0.11031365649384701,
+      "roc_auc": 0.5,
+      "average_precision": 0.12623313871552244,
+      "mean_predicted_risk": 0.12231866706574876
+    },
+    "coverage_rates": {
+      "log_loss": 0.37434912886854466,
+      "brier_score": 0.10924447839205317,
+      "roc_auc": 0.5742356257211945,
+      "average_precision": 0.146897043498378,
+      "mean_predicted_risk": 0.12188346408137074
+    },
+    "selected_model": {
+      "log_loss": 0.3596612026441435,
+      "brier_score": 0.10571052323084361,
+      "roc_auc": 0.6753173255719945,
+      "average_precision": 0.2281981651749087,
+      "mean_predicted_risk": 0.12146934471883829
+    }
+  },
+  "log_loss_reduction_vs_coverage": 0.039235903309818965,
+  "paired_log_loss_gain": 0.014687926224401288,
+  "company_bootstrap_95pct_interval": [
+    0.009450773008768051,
+    0.020620028105570707
+  ],
+  "top_decile": {
+    "rows": 497,
+    "claims": 145,
+    "observed_rate": 0.2917505030181087,
+    "lift": 2.311203745599595
+  },
+  "data_checks": {
+    "historical_rows_raw": 15075,
+    "historical_rows_usable": 14990,
+    "duplicate_copies_removed": 75,
+    "invalid_intervals_excluded": 10,
+    "scoring_rows_preserved": 3000,
+    "claim_positive_rows": 1853,
+    "first_claim_after_snapshot": 1853,
+    "scoring_companies_in_history": 733,
+    "scoring_companies_total": 739
+  },
+  "validation_windows": [
+    {
+      "validation_start": "2021-01-01",
+      "validation_end_exclusive": "2021-07-01",
+      "fit_rows": 5103,
+      "fit_claims": 612,
+      "validation_rows": 2431,
+      "validation_claims": 300
+    },
+    {
+      "validation_start": "2021-07-01",
+      "validation_end_exclusive": "2022-01-01",
+      "fit_rows": 7534,
+      "fit_claims": 912,
+      "validation_rows": 2489,
+      "validation_claims": 314
+    }
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "pandas": "2.3.3",
+    "numpy": "2.3.4",
+    "sklearn": "1.7.2",
+    "joblib": "1.5.2"
+  }
+}
