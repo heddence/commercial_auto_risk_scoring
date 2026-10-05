@@ -1,0 +1,7 @@
+# Verified with Python 3.12.14. Install a Jupyter frontend separately if needed.
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.3
+threadpoolctl==3.6.0
